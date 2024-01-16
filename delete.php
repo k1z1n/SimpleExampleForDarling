@@ -72,7 +72,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!-- Форма для подтверждения удаления -->
 <form action="" method="post">
-    <input type="hidden" name="product_id" value="<?= $_GET['id'] ?>">
     <input type="submit" value="удалить">
     <a href="item.php?id=<?= $_GET['id'] ?>">назад</a>
 </form>
